@@ -25,25 +25,27 @@ h2 {
   color: white;
   text-transform: uppercase;
   text-align: center;
-  line-height: 4em;
+  line-height: 2em;
   text-shadow: #020819 8px -20px 9px
 }
 
 h3 {
   font-size: 4.2em;
   text-align: center;
-  line-height: 1em
+  line-height: 0.1em
 }
 
 h4 {
   font-size: 1.5em;
   letter-spacing: 0.4px;
-  line-height: 1em
+  line-height: 1em;
+  margin: 15px;
 }
 
 h5 {
   font-size: 1.2em;
-  line-height: 1em
+  line-height: 1em;
+  margin: 0 auto;
 }
 
 .nav-bar {
@@ -56,6 +58,16 @@ h5 {
   font-size: 2em
 }
 
+.nav-bar-ul {
+  width: 1200px;
+  margin: 0 auto
+}
+
+.nav-bar-ul li {
+  list-style-type: none;
+  text-align: center;
+  }
+
 .background-img {
    background-image: url(https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg);
   background-repeat: no-repeat;
@@ -64,7 +76,14 @@ h5 {
 }
 
 header {
-  height: 650px
+  height: 650px;
+  padding: 50px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 5px 0
 }
 
 .quote {
@@ -80,7 +99,8 @@ header {
 .text {
   font-size: 2em;
   font-weight: 100;
-  text-align: center
+  text-align: center;
+  margin: 20px 0 20px
 }
 
 .link-btn {
@@ -95,7 +115,12 @@ header {
 
 .service-box {
   font-size: 1.7em;
-  text-align: center
+  text-align: center;
+  border: 2px solid #eee;
+  border-radius: 20px;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 10px 0 #eee;
+  margin: 50px 5% 0 5%
 }
 
 .service-box img {
@@ -106,6 +131,20 @@ header {
   background-color: white;
   color: black;
 
+}
+
+#team {
+  padding: 75px 0;
+  margin: 0 auto
+}
+
+#team p {
+  margin: 10px 0;
+}
+
+#team hr {
+  margin: 20px auto 30px;
+  width: 40%
 }
 
 #team .section-text {
@@ -123,9 +162,30 @@ header {
   height: 180px
 }
 
+.schedule-table {
+  margin: 0 auto 40px;
+  font-size: 1.5em
+}
+
+.schedule-table th, td {
+  border-bottom: 1px solid #020819;
+  padding: 5px 10px;
+  text-align: center
+}
+
 .footer {
   text-align: center;
   line-height: 2em;
+  padding: 40px 40px;
+  margin-bottom: 25px;
+}
+
+.footer ul {
+  padding: 0;
+}
+
+.footer address {
+  margin-bottom: 30px;
 }
 
 .footer a {
